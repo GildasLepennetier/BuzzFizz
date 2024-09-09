@@ -1,6 +1,6 @@
 #FizzBuzz
 
-fizzbuzz_3_5 <- function(x = NA, modulo = 3, repacement = "Fizz") {
+fizzbuzz_3_5 <- function(x = NA) {
   if (is.na(x)) {return(NA)}
   by_3 = FALSE ; by_3_txt = "Fizz"
   by_5 = FALSE ; by_5_txt = "Buzz"
